@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ## The required libraries:
 
   - `socket`
-  - `concurrent.futures
+  - `concurrent.futures`
   - `os`
   - `optparse`
   - `colorama`
