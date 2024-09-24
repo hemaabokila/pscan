@@ -1,4 +1,5 @@
 # Port Scanner Tool
+> ![Screenshot_2024-09-24_09-19-57](https://github.com/user-attachments/assets/11f84875-9adf-4a8c-8878-8573ff500d5d)
 
 ## Description
 This is a Python-based Port Scanner tool designed for cybersecurity professionals and networking enthusiasts. It scans for open TCP and UDP ports on a target machine and provides details on the services running on those ports. The tool also supports multi-threading to speed up the scanning process.
@@ -45,7 +46,7 @@ sudo mv pscan.py /usr/bin/pscan && chmod +x /usr/bin/pscan
 pscan -t <target> -p <port> -P <protocol>
 
 ```
-> ![Screenshot_2024-09-24_09-19-57](https://github.com/user-attachments/assets/11f84875-9adf-4a8c-8878-8573ff500d5d)
+> ![Screenshot_2024-09-24_09-21-12](https://github.com/user-attachments/assets/109f7ceb-8e66-44aa-8dc8-ca054886e9ce)
 ## Options:
 - **pscan -t or --target: Target IP address or hostname (required)**.
 - **pscan -p or --port: Port number to scan (optional, leave empty to scan all well-known ports)**.
