@@ -22,7 +22,7 @@ This is a Python-based Port Scanner tool designed for cybersecurity professional
 
 ## Prerequisites
 Make sure you have Python installed, and install the required libraries by running:
-```bash
+
 pip install -r requirements.txt
 
 The required libraries:
