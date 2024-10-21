@@ -1,5 +1,6 @@
 # Port Scanner Tool
-
+[![Python Version](https://img.shields.io/badge/python-3.x-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 ## Description
 This is a Python-based Port Scanner tool designed for cybersecurity professionals and networking enthusiasts. It scans for open TCP and UDP ports on a target machine and provides details on the services running on those ports. The tool also supports multi-threading to speed up the scanning process.
 
@@ -71,6 +72,8 @@ TCP Port 80: OPEN (Service: HTTP)
 ```
 UDP Port 53: OPEN
 ```
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 ## Author
 - **Developed by Ibrahem abo kila**
 - **Feel free to reach out for any questions or suggestions!**
