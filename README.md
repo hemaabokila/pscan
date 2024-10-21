@@ -1,5 +1,4 @@
 # Port Scanner Tool
-> ![Screenshot_2024-09-24_09-19-57](https://github.com/user-attachments/assets/11f84875-9adf-4a8c-8878-8573ff500d5d)
 
 ## Description
 This is a Python-based Port Scanner tool designed for cybersecurity professionals and networking enthusiasts. It scans for open TCP and UDP ports on a target machine and provides details on the services running on those ports. The tool also supports multi-threading to speed up the scanning process.
@@ -21,32 +20,26 @@ This is a Python-based Port Scanner tool designed for cybersecurity professional
   - `optparse`: To handle command-line arguments and provide easy customization.
   - `colorama`: To provide colorful output in the terminal, enhancing the user experience.
 
-## Prerequisites
-- **Make sure you have Python installed, and install the required libraries by running**:
-```
-pip install -r requirements.txt
-```
 ## The required libraries:
 
   - `socket`
   - `concurrent.futures`
   - `os`
-  - `optparse`
+  - `argparse`
   - `colorama`
 ## How to Use
 - **1.Clone the repository**:
 ```
-git clone https://github.com/hemaabokila/pscan.git
-cd pscan
-pip install -r requirements.txt
-sudo mv pscan.py /usr/bin/pscan && chmod +x /usr/bin/pscan
+git clone https://github.com/hemaabokila/port-sacnner.git
+cd port-scanner
+sudo pip install .
 ```
 - **2.Run the script with the following options**:
 ```
-pscan -t <target> -p <port> -P <protocol>
+pscan  <target> -p <port> -P <protocol>
 
 ```
-> ![Screenshot_2024-09-24_09-21-12](https://github.com/user-attachments/assets/109f7ceb-8e66-44aa-8dc8-ca054886e9ce)
+
 ## Options:
 - **pscan -t or --target: Target IP address or hostname (required)**.
 - **pscan -p or --port: Port number to scan (optional, leave empty to scan all well-known ports)**.
@@ -54,11 +47,11 @@ pscan -t <target> -p <port> -P <protocol>
 ## Example:
 - **To scan a target machine (e.g., 192.168.1.1) on port 80 using TCP**:
 ```
-pscan -t 192.168.1.1 -p 80 -P t
+pscan 192.168.1.1 -p 80 -P t
 ```
 - **To scan all well-known TCP ports on a target machine**:
 ```
-pscan -t 192.168.1.1
+pscan 192.168.1.1
 ```
 ## Ports and Services
 - **The tool comes with a list of common ports and the services typically associated with them, including**:
@@ -81,8 +74,7 @@ UDP Port 53: OPEN
 ## Author
 - **Developed by Ibrahem abo kila**
 - **Feel free to reach out for any questions or suggestions!**
-  - `LinkedIn: Connect with me`
-  - `YouTube: Watch my videos`
+  - `YouTube@cryptodome22`
 
 
 
